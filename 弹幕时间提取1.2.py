@@ -16,7 +16,7 @@ args, _ = parser.parse_known_args()
 root_folder_path = args.folder
 
 # 初始关键词数组
-initial_keywords = ["豆","警告", "走光", "露点", "漏点","两个点","没穿","真空","尖尖","透","看到了"]
+initial_keywords = [""]
 keywords = initial_keywords.copy()
 
 def process_folder(folder_path, output_text):
